@@ -7,4 +7,8 @@ class IndexController extends Controller {
 		$this->view = new IndexView();
 	}
 	
+	public function index() {
+		$this->view->index($this->model);
+	}
+	
 }
