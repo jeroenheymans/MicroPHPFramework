@@ -12,5 +12,7 @@ require_once 'application/view.php';
 
 // determine what needs to be loaded and start appropriate controller and action (for the moment just the basic one)
 // TODO: require_once the correct controller and call the correct action
-$c = new Controller();
+
+require_once 'controllers/index.php';
+$c = new IndexController();
 $c->index();
