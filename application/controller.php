@@ -4,7 +4,7 @@
  * 
  * @author Jeroen Heymans
  */
-class Controller {
+abstract class Controller {
 	
 	protected $model;
 	protected $view;
