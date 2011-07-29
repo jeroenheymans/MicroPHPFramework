@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * MicroPHPFramework by Jeroen Heymans
+ */
+
 require_once 'application/controller.php';
 require_once 'application/model.php';
 require_once 'application/view.php';
