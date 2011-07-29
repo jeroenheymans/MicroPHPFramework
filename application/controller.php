@@ -14,8 +14,8 @@ class Controller {
 		$this->view = new View();
 	}
 	
-	public function home() {
-		$this->view->render($this->model);
+	public function index() {
+		$this->view->index($this->model);
 	}
 	
 }

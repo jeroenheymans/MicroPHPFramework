@@ -6,7 +6,7 @@
  */
 class View {
 	
-	public function render(Model $m) {
+	public function index(Model $m) {
 		echo $m->introText;
 	}
 	
