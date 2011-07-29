@@ -2,6 +2,8 @@
 
 /**
  * MicroPHPFramework by Jeroen Heymans
+ *
+ * @author Jeroen Heymans
  */
 
 require_once 'application/controller.php';
