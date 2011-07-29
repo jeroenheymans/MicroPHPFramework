@@ -2,6 +2,15 @@
 /**
  * MicroPHPFramework by Jeroen Heymans
  *
+ * This is a very small framework that allows to give
+ * an MVC structure to your project without really
+ * pushing you in a certain programming direction.
+ *
+ * The only thing it wants to do is give a good basic
+ * MVC structure. All your pages are put into controllers
+ * and if you want, you can use the concept of models and
+ * views but even these concepts aren't a requirement.
+ *
  * @author Jeroen Heymans
  */
  
