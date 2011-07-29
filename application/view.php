@@ -4,7 +4,7 @@
  * 
  * @author Jeroen Heymans
  */
-class View {
+abstract class View {
 	
 	public function index(Model $m) {
 		echo $m->introText;

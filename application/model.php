@@ -4,8 +4,6 @@
  * 
  * @author Jeroen Heymans
  */
-class Model {
-
-	public $introText = 'Hello world';
+abstract class Model {
 	
 }

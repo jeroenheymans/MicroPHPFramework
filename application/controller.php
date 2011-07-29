@@ -6,12 +6,12 @@
  */
 abstract class Controller {
 	
-	protected $model;
-	protected $view;
+	protected $model = null;
+	protected $view = null;
 	
 	public function __construct() {
-		$this->model = new Model();
-		$this->view = new View();
+		//$this->model = new Model();
+		//$this->view = new View();
 	}
 	
 	public function index() {
